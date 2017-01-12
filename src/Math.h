@@ -3,17 +3,18 @@
 #define MATH_H
 
 //required header files for all math class
-#include <iostream>
+#include <math.h>
+#include <ctype.h>
 #include <iomanip>
-#include <cmath>
-#include <cstdlib>
-#include <cctype>
-#include <string>
-#include <cstring>
+#include <stdlib.h>
+#include <assert.h>
+#include <iostream>
+#include <strings.h>
+#include "Parser.h"
 
 //global functions for all class
-inline void pausescreen(){system("pause");}
-inline void clearscreen(){system("cls");}
+inline void pausescreen(){system("pause");}  //O(1)
+inline void clearscreen(){system("cls");}    //O(1)
 
 //math/engineering constants
 const float pi=3.1415926535; //no unit 'π'

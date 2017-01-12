@@ -5,7 +5,6 @@
 #define INTEGRATION_H
  
 #include "Math.h"
-#include "Parser.h"
 
 class Integration : public Parser
 {
@@ -18,7 +17,7 @@ class Integration : public Parser
 
         //************************************************************//
 		template<typename value>
-        inline void Display(const value& answer, const std::string& unit) const;
+        inline void Display(const value& answer, const std::string& unit);
         //***********************************************************//
 		
         //data members

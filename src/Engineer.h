@@ -7,11 +7,11 @@
 
 
 #include "Math.h"
-#include "Parser.h"
+#include "History.h"
 #include "Integration.h"
 #include "Basic_Calculations.h"
 
-class Engineer : public Parser
+class Engineer : public  Parser
 {
 	public:	
 		Engineer();
@@ -27,7 +27,7 @@ class Engineer : public Parser
 	 //data members
 	 Integration* fIntegration;
 	 Basic_Calculations* fBasic_Calculations;
-	 
+	 History* fHistory;
 };
 
 #endif //ENGINEER_H

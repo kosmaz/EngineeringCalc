@@ -1,5 +1,6 @@
 #include "Engineer.h"
 
+//O(1)
 int main()
 {
 	Engineer* run=new Engineer;
